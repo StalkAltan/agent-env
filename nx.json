@@ -5,15 +5,17 @@
       "runner": "nx-cloud",
       "options": {
         "cacheableOperations": [
+          "print-env",
           "build",
           "lint",
           "test",
           "e2e"
         ],
-        "accessToken": "NGI4MTQxZDItZjMxYi00YWRiLTk3MjUtNzcyYjE4MWIxYmFjfHJlYWQtd3JpdGU="
+        "accessToken": "NDM3OThlNTktZmNkZi00MTMxLWI1ZWUtOWIxY2M4ZWQ4NmExfHJlYWQtd3JpdGU="
       }
     }
   },
+  "bustCache": 1,
   "targetDefaults": {
     "build": {
       "dependsOn": [

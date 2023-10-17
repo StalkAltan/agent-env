@@ -6,6 +6,12 @@
   "sourceRoot": "apps/app1/src",
   "tags": [],
   "targets": {
+    "print-env": {
+      "command": "echo $NX_CLOUD_VALUE",
+      "configurations": {
+        "production": {}
+      }
+    },
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
       "outputs": ["{options.outputPath}"],
