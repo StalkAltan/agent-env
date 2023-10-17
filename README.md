@@ -1,6 +1,8 @@
 
 # Agent Environment Variable Loading
 
+## NOTE: If you are cloning this repository to test, you may need to change the NX_RUN_GROUP values to ones that have not been used by other people cloning. Any string should work as long as it is shared between the main command and agent.
+
 To test project-level .env:
 
 1) Install with pnpm
